@@ -15,3 +15,20 @@ git commit -m "Le message à ajouter" permet de valider les modifications avec u
 
 5)
  git log permet de consulter l'historique des commits réalisés.
+ 
+ 6) git diff affiche les changements apportés aux fichiers avant qu’ils ne soient ajoutés à la zone de staging.
+    git diff --staged montre les modifications qui sont déjà prêtes à être validées.
+    git show 2243f11
+    
+7)
+git show : détaille le contenu d’un commit (les ajouts/modifications).
+Exemple : git show abc1234 – affiche les changements du commit abc1234.
+
+git status : fait le point sur les fichiers suivis, modifiés ou en attente.
+Exemple : git status – montre les fichiers modifiés non ajoutés au commit.
+
+git diff : compare les fichiers modifiés avec leur version précédente.
+Exemple : git diff main – compare les changements actuels avec la branche main.
+
+git log : liste tous les commits réalisés.
+Exemple : git log --oneline – affiche l’historique des commits en une ligne.
