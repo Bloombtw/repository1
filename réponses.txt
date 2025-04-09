@@ -6,3 +6,12 @@ Il permet de voir les fichiers modifiés, ceux ajoutés à la zone de staging, e
 
 2)
 On peut constater que les fichiers reponses.txt et readme.md ont été ajoutés au répertoire de travail.
+
+3)
+Les fichiers ajoutés sont présents dans le répertoire de travail.
+
+4)
+git commit -m "Le message à ajouter" permet de valider les modifications avec un message.
+
+5)
+ git log permet de consulter l'historique des commits réalisés.
