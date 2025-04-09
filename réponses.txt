@@ -32,3 +32,34 @@ Exemple : git diff main – compare les changements actuels avec la branche main
 
 git log : liste tous les commits réalisés.
 Exemple : git log --oneline – affiche l’historique des commits en une ligne.
+
+8) Sur la branche `develop`, on voit que deux nouveaux fichiers sont prêts à être commit :
+- brouillon.txt
+- fichier1.txt 
+
+Puis avec le reset on voit que brouillon est enlevé.
+
+9)
+Certaines commandes permettent de revenir en arrière ou d’ajuster l’état du dépôt,
+ par exemple pour annuler un commit ou retirer un fichier de la zone de staging.
+ 
+10)
+ Avec `git status`, on peut repérer les fichiers non suivis par Git.
+ 
+ 13) Pour cloner un dépôt distant :
+    git clone https://github.com/PaulineLam24/TP-Git.git
+    
+14) Une fois le dépôt cloné, on y trouve le fichier `README.md`.  
+Voici les messages des commits :
+- Initial commit
+- Ajout d’une deuxième ligne dans le README.md
+- Correction : la ligne est passée d’un titre (#) à une ligne de texte simple
+
+15) Détail des différences entre les commits :
+- Entre le 1er et le 2e commit :
+  + Ajout du titre "# TP-Git"
+  + Ajout de la ligne "# Ceci est un fichier README.md..."
+
+- Entre le 2e et le 3e commit :
+  - La ligne "# Ceci est un fichier README.md..." a été supprimée
+  + Elle a été remplacée par "Ceci est un fichier README.md..." (sans le #)
