@@ -1,0 +1,8 @@
+
+TP-2 Anton Meimoun B2
+1)
+git status affiche l'état du répertoire de travail et de la zone de préparation (staging area).
+Il permet de voir les fichiers modifiés, ceux ajoutés à la zone de staging, et ceux non suivis par Git.
+
+2)
+On peut constater que les fichiers reponses.txt et readme.md ont été ajoutés au répertoire de travail.
